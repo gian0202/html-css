@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmicas</title>
+ 
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site vem vários dispositivos diferenes ou simples aumente e diminuua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:800)" srcset="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-p.png?raw=true" type="image/">
+        <source media="(max-width: 1050px)" srcset="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-m.png?raw=true" type="image/png">
+        
+       <img src="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-g.png?raw=true    " alt="Imagem Flexivel">
+
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Jaymes Young - Happiest Year Official Music Video _128k.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/Jaymes Young - Happiest Year Official Music Video _128k.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+        <source>
+    </audio>
+</body>
+</html>
